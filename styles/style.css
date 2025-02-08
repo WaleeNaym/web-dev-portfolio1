@@ -1,21 +1,38 @@
-/*Open Sans font class*/
+/*Open Sans font class, pasted from google fonts, edited some values*/
 .open-sans-normal {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      "wdth" 100;             
   }
+
 
 /*Common Styles*/
 .text-primary {
     color: #FD6E0A;
 }
+.dark-2-color {
+    color: #474747;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
 
 /*Nav styles*/
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title-logo {
@@ -24,10 +41,14 @@ nav {
 }
 
 nav ul {
-    list-style: none;
+    display: flex;
+    align-items: center;
 }
-
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
 nav li a {                  /*you can skip: nav *ul li a*/
     text-decoration: none;
-    
+    font-size: 20px;
 }
