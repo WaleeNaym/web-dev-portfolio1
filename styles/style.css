@@ -119,3 +119,7 @@ nav li a {                  /*you can skip: nav *ul li a*/
     text-align: center;
     margin-top: 130px;
 }
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
