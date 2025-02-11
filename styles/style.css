@@ -106,10 +106,16 @@ nav li a {                  /*you can skip: nav *ul li a*/
 
 
 /* Main section styles */
-.main{}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 /* About section styles */
 .about {
     border-radius: 10px;
-    margin: 130px 230px;
+    padding: 131px 156px;
+    text-align: center;
+    margin-top: 130px;
 }
