@@ -123,3 +123,12 @@ nav li a {                  /*you can skip: nav *ul li a*/
     display: flex;
     justify-content: space-around;
 }
+.item-title {
+    font-size: 20px;
+    color: #757575;
+}
+.item-description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
