@@ -41,9 +41,6 @@
 .section-description-main {
     font-size: 18px;
 }
-.section-description-secondary {
-    font-size: 16px;
-}
 .section-text-alignment {
     text-align: center;
 }
@@ -151,4 +148,38 @@ nav li a {                  /*you can skip: nav *ul li a*/
 .skill-cards {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);  /* X-axis| Y-axis | Blur | Spread | color */  
+}
+
+
+/* Resume Section Style */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-info-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-info-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-info-description {
+    font-size: 16px;
+    color: #757575;
+}
+.resume hr {
+    margin: 30px 0px;
+}
+.resume-download-button {
+    text-align: center;
+    margin-top: 50px;
 }
