@@ -51,7 +51,6 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;        /* first image | second image */
-    /* margin: 38px 0 25px 23px; */
 }
 
 
@@ -138,9 +137,6 @@ nav li a {                  /*you can skip: nav *ul li a*/
 
 
 /* Skills Section Style */
-.skills {
-
-}
 .skills-container {
     display: flex;  
     gap: 24px;
