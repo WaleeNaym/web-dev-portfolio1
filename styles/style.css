@@ -183,3 +183,24 @@ nav li a {                  /*you can skip: nav *ul li a*/
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* Footer Section */
+footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {       /* All inputs with text type so & so */
+    display: block;
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    /* border-color: white; */
+    margin-bottom: 24px;
+    padding: 10px 20px;
+}
